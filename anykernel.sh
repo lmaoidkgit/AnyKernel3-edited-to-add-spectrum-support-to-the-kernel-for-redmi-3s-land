@@ -4,23 +4,18 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=#add kernel name here(remove the hastags btw)# Kernel for Redmi 3s (land)
 do.devicecheck=1
 do.modules=0
-do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=maguro
-device.name2=toro
-device.name3=toroplus
-device.name4=tuna
-device.name5=
+device.name1=land
 supported.versions=
 supported.patchlevels=
 '; } # end properties
 
 # shell variables
-block=/dev/block/platform/omap/omap_hsmmc.0/by-name/boot;
+block=/dev/block/bootdevice/by-name/boot;
 is_slot_device=0;
 ramdisk_compression=auto;
 
@@ -32,9 +27,8 @@ ramdisk_compression=auto;
 
 ## AnyKernel file attributes
 # set permissions/ownership for included ramdisk files
-set_perm_recursive 0 0 755 644 $ramdisk/*;
-set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
-
+chmod -R 755 $ramdisk
+chmod +x $ramdisk/sbin/spa
 
 ## AnyKernel install
 dump_boot;
@@ -60,5 +54,24 @@ append_file fstab.tuna "usbdisk" fstab;
 # end ramdisk changes
 
 write_boot;
+
 ## end install
+
+# Adding configs
+if [ ! -d /data/media/Spectrum ]; then
+  ui_print " "; ui_print "Creating /data/media/0/Spectrum...";
+  mkdir /data/media/0/Spectrum;
+fi
+if [ ! -d /data/media/Spectrum/profiles ]; then
+  mkdir /data/media/0/Spectrum/profiles;
+fi
+if [ ! -d /data/media/Spectrum/profiles/*.profile ]; then
+  ui_print " "; ui_print "Adding configs";
+  cp -r /tmp/anykernel/configshehe/balance.profile /data/media/0/Spectrum/profiles/;
+  cp -r /tmp/anykernel/configshehe/performance.profile /data/media/0/Spectrum/profiles/;
+  cp -r /tmp/anykernel/configshehe/gaming.profile /data/media/0/Spectrum/profiles/;
+  cp -r /tmp/anykernel/configshehe/battery.profile /data/media/0/Spectrum/profiles/;
+  mount -o remount,rw /vendor
+  cp -r /tmp/anykernel/ramdisk/init.spectrum.rc /vendor/etc/init/
+fi
 
