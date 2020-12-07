@@ -1,4 +1,4 @@
-#### AnyKernel3-edited-to-add-spectrum-support-to-the-kernel-for-redmi-3s-land ####(this also adds the various configs/profiles)
+#### AnyKernel3-edited-to-add-spectrum-support-to-the-kernel-for-redmi-3s-land (this also adds the various configs/profiles)
 What actually happened was that i wanted to add spectrum support to my kernel. But i wasn't able to add coz of old procedure(talking about the procedure mentioned 
 in spectrum's xda forum https://forum.xda-developers.com/t/app-5-0-spectrum-a-kernel-manager-for-users-root.3601542/) of adding support or its just me being dumb 
 af. I also tried using the spectrum injector but that also didn't work for me. So as i wanted to add, I edited anykernel3 flashable zip by osm0sis @xda-
