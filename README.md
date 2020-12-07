@@ -14,6 +14,8 @@ As i had some problems adding spectrum support i thought of helping other devs. 
 
 (tested by me on android 11)
 
+(the source code files have already been edited for flashing this on redmi 3s)
+
 ----------------------------------------------------------------------------------
 AnyKernel3 - Flashable Zip Template for Kernel Releases with Ramdisk Modifications
 ----------------------------------------------------------------------------------
