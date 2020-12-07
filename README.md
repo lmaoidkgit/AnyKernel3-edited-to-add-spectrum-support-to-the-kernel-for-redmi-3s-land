@@ -16,6 +16,8 @@ As i had some problems adding spectrum support i thought of helping other devs. 
 
 (the source code files have already been edited for flashing the zip file on redmi 3s so, you only need to follow the above steps)
 
+#### If anyone who isn't a developer want spectrum support just skip the 1st step but follow the next steps. Most of the times your kernel name is the word you see in "kernel version" in "about phone" settings. Example(1)- while using YAAP the kernel version is "4.9.227~Fluid+#2 Sat Nov 14......",so kernel name here is ~Fluid. So you can say anything after kernel version numbers and before build date is your kernel name. 
+
 ----------------------------------------------------------------------------------
 AnyKernel3 - Flashable Zip Template for Kernel Releases with Ramdisk Modifications
 ----------------------------------------------------------------------------------
