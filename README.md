@@ -1,12 +1,12 @@
-#### AnyKernel3-edited-to-add-spectrum-support-to-the-kernel-for-redmi-3s-land ####
+#### AnyKernel3-edited-to-add-spectrum-support-to-the-kernel-for-redmi-3s-land ####(this also adds the various configs/profiles)
 What actually happened was that i wanted to add spectrum support to my kernel. But i wasn't able to add coz of old procedure(talking about the procedure mentioned 
 in spectrum's xda forum https://forum.xda-developers.com/t/app-5-0-spectrum-a-kernel-manager-for-users-root.3601542/) of adding support or its just me being dumb 
 af. I also tried using the spectrum injector but that also didn't work for me. So as i wanted to add, I edited anykernel3 flashable zip by osm0sis @xda-
-developers and after 15+ trials(coz i am dumb af) i was able to edit it successfully(i took little bit help from procedure present in spectrum's xda page and used my common-sense). I also didn't have much idea of making configs so i used the configs used in 
+developers and after 15+ trials(coz i am dumb af) i was able to edit it successfully(i took little bit help from procedure present in spectrum's xda page and used my common-sense). I also didn't had much idea of making configs/profiles so i used the configs/profiles used in 
 chimera kernel( https://forum.xda-developers.com/t/3-18-140-eas-o-pie-gestures-chimera-kernel-final.3733390/ ) as they have already been tested by many users.
-#### these spectrum configs are only for redmi 3s(Afaik) ####
+#### these spectrum configs/profiles are only for redmi 3s(Afaik) ####
 
-As i had some problems adding support i thought of helping other devs so now anyone can add support to their kernel by just doing these steps-
+As i had some problems adding spectrum support i thought of helping other devs. So, now anyone can add spectrum support to their kernel by just doing these steps-
 1) add Image.gz-dtb of your kernel to the extracted folder
 2) add your kernel name to anykernel.sh [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
 3) add your kernel name to init.spectrum.rc(this file is present in ramdisk folder) [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
