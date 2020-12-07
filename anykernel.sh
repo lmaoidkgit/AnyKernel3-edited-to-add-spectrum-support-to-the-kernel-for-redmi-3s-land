@@ -4,7 +4,7 @@
 ## AnyKernel setup
 # begin properties
 properties() { '
-kernel.string=#add kernel name here(remove the hastags btw)# Kernel for Redmi 3s (land)
+kernel.string=#add kernel name here(remove the hashtags btw)# Kernel for Redmi 3s (land)
 do.devicecheck=1
 do.modules=0
 do.cleanup=1
