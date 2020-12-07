@@ -11,7 +11,6 @@ As i had some problems adding spectrum support i thought of helping other devs. 
 2) add your kernel name to anykernel.sh [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
 3) add your kernel name to init.spectrum.rc(this file is present in ramdisk folder) [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
 4) now just verify everything and compress/archive the files again and flash
-5) now if you want you can read osm0sis's instructions/infos about AnyKernel3
 
 (tested by me on android 11)
 
