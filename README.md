@@ -1,8 +1,8 @@
 #### AnyKernel3-edited-to-add-spectrum-support-to-the-kernel-for-redmi-3s-land (this also adds the various configs/profiles)
-What actually happened was that i wanted to add spectrum support to my kernel. But i wasn't able to add coz of old procedure(talking about the procedure mentioned 
-in spectrum's xda forum https://forum.xda-developers.com/t/app-5-0-spectrum-a-kernel-manager-for-users-root.3601542/) of adding support or its just me being dumb 
-af. I also tried using the spectrum injector but that also didn't work for me. So as i wanted to add, I edited anykernel3 flashable zip by osm0sis @xda-
-developers and after 15+ trials(coz i am dumb af) i was able to edit it successfully(i took little bit help from procedure present in spectrum's xda page and used my common-sense). I also didn't had much idea of making configs/profiles so i used the configs/profiles used in 
+What actually happened was that i wanted to add spectrum support to my kernel. But i wasn't able to add coz of me being dumb af(the process was a little bit 
+complex for me, like that ramdisk part). I also tried using the spectrum injector but that also didn't work for me. So as i wanted to add, I edited anykernel3 
+flashable zip by osm0sis @xda-developers and after 15+ trials(coz i am dumb af) i was able to edit it successfully(i took little bit help from procedure present 
+in spectrum's xda page,spectrum injector and used my common-sense). I also didn't had much idea of making configs/profiles so i used the configs/profiles used in 
 chimera kernel( https://forum.xda-developers.com/t/3-18-140-eas-o-pie-gestures-chimera-kernel-final.3733390/ ) as they have already been tested by many users.
 #### these spectrum configs/profiles are only for redmi 3s(Afaik) ####
 
