@@ -8,10 +8,11 @@ chimera kernel( https://forum.xda-developers.com/t/3-18-140-eas-o-pie-gestures-c
 #### these spectrum configs/profiles are only for redmi 3s(Afaik) ####
 
 As i had some problems adding spectrum support i thought of helping other devs. So, now anyone can add spectrum support to their kernel by just doing these steps-
-1) add Image.gz-dtb of your kernel to the extracted folder
-2) add your kernel name to anykernel.sh [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
-3) add your kernel name to init.spectrum.rc(this file is present in ramdisk folder) [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
-4) now just verify everything and compress/archive the files again and flash
+1) clone the files/download the files to your computer [if using linux - open terminal make a folder and cd into it and then copy this to terminal " git clone https://github.com/lmaoidkgit/AnyKernel3-edited-to-add-spectrum-support-to-the-kernel-for-redmi-3s-land " (you need to have git installed) or if you aren't using linux just download the source zip from here https://github.com/lmaoidkgit/AnyKernel3-edited-to-add-spectrum-support-to-the-kernel-for-redmi-3s-land and extract it]
+2) add Image.gz-dtb of your kernel to the extracted-folder/folder
+3) add your kernel name to anykernel.sh [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
+4) add your kernel name to init.spectrum.rc(this file is present in ramdisk folder) [you can see where you have to add the name just by opening the file, or by searching this "#add kernel name here(remove the hashtags btw)#"]
+5) now just verify everything and compress/archive the files again and flash
 
 (tested by me on android 11)
 
